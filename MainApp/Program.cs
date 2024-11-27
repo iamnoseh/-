@@ -4,6 +4,7 @@ using CansoleLibrary;
 
 Service service = new Service();
 bool exit = false;
+System.Console.WriteLine("Hello world !");
 
 while (!exit)
 {
