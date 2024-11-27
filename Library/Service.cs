@@ -32,7 +32,7 @@ public class Service
             Console.WriteLine("Список всех отделов:");
             foreach (var dept in departments)
             {
-                Console.WriteLine($"ID: {dept.DepartmentId} | Название: {dept.Name}");
+                Console.WriteLine($"ID: {dept.DepartmentId} | Название: {dept.Name} ;" );
             }
         }
         catch (Exception ex)
@@ -41,7 +41,7 @@ public class Service
         }
         finally
         {
-            System.Console.WriteLine("Операция завершена.");
+            System.Console.WriteLine("Операция завершена !");
         }
     }
 
